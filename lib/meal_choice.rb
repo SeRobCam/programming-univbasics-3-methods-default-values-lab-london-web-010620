@@ -1,7 +1,7 @@
 # Your code here
 # For output purposes, use "puts" instead of "print" or "p"
 
-def meal_choice(veg1, veg2, protein)
+def meal_choice(veg1, veg2, protein = 'meat')
     puts "What a nutritious meal!"
     if (protein = nil)
       puts "A plate of #{protein} and #{veg1} and #{veg2}."
