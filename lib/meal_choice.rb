@@ -4,7 +4,7 @@
 
 
 def meal_choice(veg1, veg2, protein)
-  puts "What a nutritious meal!"
+  p "What a nutritious meal!"
   protein = "meat"
   if (protein == true && protein == false)
     puts "A plate of #{protein} with #{veg1} and #{veg2}."
