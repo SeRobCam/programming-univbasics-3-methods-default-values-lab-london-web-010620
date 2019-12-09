@@ -3,7 +3,7 @@
 
 
 
-def meal_choice(veg1, veg2)
+def meal_choice(veg1, veg2, protein)
   puts "What a nutritious meal!"
   protein = "meat"
   if (protein == true && protein == false)
