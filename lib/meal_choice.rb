@@ -6,7 +6,6 @@ def meal_choice(veg1, veg2)
   var protein = "meat"
   if (protein = true)
     puts "A plate of meat and #{veg1} and #{veg2}."
-  else
-    puts "A plate of #{protein} with #{veg1} and #{veg2}."
   end
+  puts "A plate of #{protein} with #{veg1} and #{veg2}."
 end
